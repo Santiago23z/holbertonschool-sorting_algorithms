@@ -64,6 +64,32 @@ void print_array(const int *array, size_t size)
     printf("\n");
 }
 ```
+```
+#include <stdio.h>
+#include "sort.h"
+
+/**
+ * print_list - Prints a list of integers
+ *
+ * @list: The list to be printed
+ */
+void print_list(const listint_t *list)
+{
+    int i;
+
+    i = 0;
+    while (list)
+    {
+        if (i > 0)
+            printf(", ");
+        printf("%d", list->n);
+        ++i;
+        list = list->next;
+    }
+    printf("\n");
+}
+```
+# ---------------------------------------------------------------------
 
 ***Santiago Zapata*** @Santiag72319908 <a href="https://twitter.com/Santiag72319908" rel= "nofollow"> <img width="18px" align="center"
 src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/twitter.svg" style="max-width: 100%;"> <a href="https://github.com/Santiago23z"> <img width="18px" align="center" src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg" style="max-width: 100%;"></a>
