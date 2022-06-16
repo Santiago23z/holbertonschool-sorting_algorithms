@@ -39,7 +39,7 @@ There should be one project repository per group. If you clone/fork/whatever a p
 
 # Data Structure and Functions
 - For this project you are given the following print_array, and print_list functions:
-'''
+```
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -63,7 +63,7 @@ void print_array(const int *array, size_t size)
     }
     printf("\n");
 }
-'''
+```
 
 ***Santiago Zapata*** @Santiag72319908 <a href="https://twitter.com/Santiag72319908" rel= "nofollow"> <img width="18px" align="center"
 src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/twitter.svg" style="max-width: 100%;"> <a href="https://github.com/Santiago23z"> <img width="18px" align="center" src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg" style="max-width: 100%;"></a>
